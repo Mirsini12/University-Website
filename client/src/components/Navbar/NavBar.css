@@ -1,0 +1,54 @@
+
+
+  img{
+    height: 4rem;
+    width: 5.4rem;
+  } 
+  
+ 
+  .link{
+    color: white;
+    list-style: none;
+    margin-left: 0.9rem;  
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    }
+
+  .sb {   
+    justify-content: space-between;      
+  }
+  
+  ul {
+    list-style: none;
+    margin: 5rem;
+    color: white;    
+  } 
+ 
+  .btnLogout{
+    margin-left:5rem;
+    margin-bottom: 1rem;
+  }
+
+  .btnLogin{
+    margin-right:1rem;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 590px) {
+    .link {
+      flex-direction: column;
+      gap:1.5rem;
+    }
+    .btnLogout{
+      /* margin-left:5rem; */
+      margin-bottom: 2rem;
+    }
+  
+    .btnLogin{
+      /* margin-right:1rem; */
+      margin-bottom: 2rem;
+    }
+
+  }
+  
